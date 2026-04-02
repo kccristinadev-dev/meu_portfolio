@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio</title>
+
+<style>
+* {
+  -webkit-tap-highlight-color: transparent;
+
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #a855f7;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #aaa;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARDS */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 0 0 transparent;
+
+    border: 1px solid transparent;
+}
+
+.card:hover {
+    border: 1px solid #a855f7;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(168, 85, 247, 0.2);
+}
+
+.card h3 {
+    color: #a855f7;
+        letter-spacing: 1.5px;
+
+}
+
+.card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #a855f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card a:hover {
+    color: #ccc;
+}
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #a855f7;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #9333ea;
+        box-shadow: 0 1px 4px rgba(168, 85, 247, 0.2);
+
+}
+.linguagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+}
+.linguagens li {
+    background: #2a2a2a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}/* FOOTER */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    color: #666;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Kethelyn Cristina</h1>
+    <p>Desenvolvedora | Full Stack (em formação)</p>
+</header>
+
+<div class="container">
+
+    <h2 style="color:#a855f7;">Projetos</h2>
+
+    <div class="projects">
+        <div class="card">
+            <h3>Sistema de Gestão de Alunos e Médias</h3>
+            <p>Aplicação web desenvolvida com PHP e MySQL para gerenciamento de alunos suas notas e calcula medias em arimetica. Permite cadastro, edição, exclusão e visualização dos dados em tabela dinâmica.
+  </p>
+          <ul class="linguagens">
+              <li>HTML</li>
+              <li>CSS</li>
+               <li>JavaScript</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+
+          </ul>
+            <a href="https://list.wuaze.com/">Ver projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>Projeto de UI inspirado em plataformas de streaming</h3>
+          <p>Projeto inspirado na Netflix com interface responsiva, seleção de perfis e layout de catálogo. Desenvolvido para praticar front-end e organização de componentes.</p>
+          <ul class="linguagens">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+          </ul>
+            <a href="https://kccristinadev-dev.github.io/Netflix.Mvers-o/">Ver projeto</a>
+        </div>
+
+
+        <div class="card">
+            <h3>Sistema de Análise e Gestão de KPIs</h3>
+            <p>Sistema para cálculo e análise de indicadores de desempenho (KPIs), auxiliando na interpretação de resultados e na tomada de decisões estratégicas. Desenvolvido em front-end, com geração de relatórios em PDF para exportação dos dados.</p>
+                      <ul class="linguagens">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+          </ul>
+
+            <a href="https://kccristinadev-dev.github.io/Calculadora-de-Indicadores-2.0/">Ver projeto</a>
+        </div>
+
+    </div>
+
+    <a href="https://github.com/kccristinadev-dev" class="btn">Ver GitHub</a>
+
+</div>
+
+<footer>
+    © 2026 - Kethelyn Cristina
+</footer>
+
+</body>
+</html>
