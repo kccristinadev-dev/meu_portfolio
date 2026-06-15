@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio</title>
-<link rel="stylesheet" href="estilo/index.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="estilo/index.css">
 </head>
 
 <body>
@@ -15,58 +14,96 @@
     <p>Desenvolvedora | Full Stack (em formação)</p>
 </header>
 
-<div class="container">
+<main class="container">
 
-    <h2 style="color:#a855f7;">Projetos</h2>
+    <section aria-labelledby="titulo-projetos">
+        <h2 id="titulo-projetos" class="section-title">Projetos</h2>
 
-    <div class="projects">
-        <div class="card">
-            <h3>Sistema de Gestão de Alunos e Médias</h3>
-            <p>Aplicação web desenvolvida com PHP e MySQL para gerenciamento de alunos suas notas e calcula medias em arimetica. Permite cadastro, edição, exclusão e visualização dos dados em tabela dinâmica.
-  </p>
-          <ul class="linguagens">
-              <li>HTML</li>
-              <li>CSS</li>
-               <li>JavaScript</li>
-              <li>PHP</li>
-              <li>MySQL</li>
+        <div class="projects">
 
-          </ul>
-            <a href="https://list.wuaze.com/">Ver projeto</a>
+            <article class="card">
+                <h3>Sistema de Gestão de Alunos e Médias</h3>
+
+                <p>
+                    Aplicação web desenvolvida com PHP e MySQL para gerenciamento
+                    de alunos, notas e cálculo de médias. Permite cadastro,
+                    edição, exclusão e visualização dos dados em tabela dinâmica.
+                </p>
+
+                <ul class="linguagens">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+
+                <a href="https://list.wuaze.com/" target="_blank" rel="noopener noreferrer">
+                    Ver projeto
+                </a>
+            </article>
+
+            <article class="card">
+                <h3>Projeto de UI inspirado em plataformas de streaming</h3>
+
+                <p>
+                    Projeto inspirado na Netflix com interface responsiva,
+                    seleção de perfis e layout de catálogo. Desenvolvido para
+                    praticar front-end e organização de componentes.
+                </p>
+
+                <ul class="linguagens">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <a href="https://kccristinadev-dev.github.io/Netflix.Mvers-o/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver projeto
+                </a>
+            </article>
+
+            <article class="card">
+                <h3>Sistema de Análise e Gestão de KPIs</h3>
+
+                <p>
+                    Sistema para cálculo e análise de indicadores de desempenho
+                    (KPIs), auxiliando na interpretação de resultados e na tomada
+                    de decisões estratégicas. Desenvolvido em front-end com geração
+                    de relatórios em PDF.
+                </p>
+
+                <ul class="linguagens">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <a href="https://kccristinadev-dev.github.io/Calculadora-de-Indicadores-2.0/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver projeto
+                </a>
+            </article>
+
         </div>
+    </section>
 
-        <div class="card">
-            <h3>Projeto de UI inspirado em plataformas de streaming</h3>
-          <p>Projeto inspirado na Netflix com interface responsiva, seleção de perfis e layout de catálogo. Desenvolvido para praticar front-end e organização de componentes.</p>
-          <ul class="linguagens">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-          </ul>
-            <a href="https://kccristinadev-dev.github.io/Netflix.Mvers-o/">Ver projeto</a>
-        </div>
+    <nav aria-label="Links profissionais">
+        <a href="https://github.com/kccristinadev-dev"
+           class="btn"
+           target="_blank"
+           rel="noopener noreferrer">
+            Ver GitHub
+        </a>
+    </nav>
 
-
-        <div class="card">
-            <h3>Sistema de Análise e Gestão de KPIs</h3>
-            <p>Sistema para cálculo e análise de indicadores de desempenho (KPIs), auxiliando na interpretação de resultados e na tomada de decisões estratégicas. Desenvolvido em front-end, com geração de relatórios em PDF para exportação dos dados.</p>
-                      <ul class="linguagens">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-          </ul>
-
-            <a href="https://kccristinadev-dev.github.io/Calculadora-de-Indicadores-2.0/">Ver projeto</a>
-        </div>
-
-    </div>
-
-    <a href="https://github.com/kccristinadev-dev" class="btn">Ver GitHub</a>
-
-</div>
+</main>
 
 <footer>
-    © 2026 - Kethelyn Cristina
+    <p>&copy; 2026 - Kethelyn Cristina</p>
 </footer>
 
 </body>
