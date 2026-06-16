@@ -182,16 +182,16 @@ h3{
 .formacao-lista li:hover{
     transform:translateY(-3px);
 transition: 0.3s ease;}
-nav{
-    text-align:center;
+#contato{
     background:white;
     color:white;
-    text-align:center;
         border-radius:15px;
     padding:60px 20px;
     box-shadow:0 4px 12px rgba(0,0,0,.13);
 }
-
+.lista-contato{
+    text-align: center;
+}
 footer{
     background:linear-gradient(135deg,#5b21b6,#8b04c9);  
     color:white;
